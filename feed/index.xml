@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>soluzioni-sa</title>
+	<atom:link href="https://soluzioni.com.co/feed/" rel="self" type="application/rss+xml" />
+	<link>https://soluzioni.com.co/</link>
+	<description></description>
+	<lastBuildDate>Mon, 05 Dec 2022 19:18:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Un buen mobiliario de oficina aumenta la productividad</title>
+		<link>https://soluzioni.com.co/tendencia-para-una-oficina/</link>
+					<comments>https://soluzioni.com.co/tendencia-para-una-oficina/#respond</comments>
+		
+		<dc:creator><![CDATA[eme]]></dc:creator>
+		<pubDate>Thu, 01 Dec 2022 22:25:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://soluzioni.com.co/?p=1222</guid>
+
+					<description><![CDATA[El uso apropiado de la ergonomía en el mobiliario dentro del entorno empresarial hace que aumente la productividad. Además, este mismo factor, en relación a la comodidad que proporciona en el trabajador hace que disminuya considerablemente el absentismo laboral]]></description>
+										<content:encoded><![CDATA[El uso apropiado de la ergonomía en el mobiliario dentro del entorno empresarial hace que aumente la productividad. Además, este mismo factor, en relación a la comodidad que proporciona en el trabajador hace que disminuya considerablemente el absentismo laboral]]></content:encoded>
+					
+					<wfw:commentRss>https://soluzioni.com.co/tendencia-para-una-oficina/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tendencias en oficinas para el 2023</title>
+		<link>https://soluzioni.com.co/tendencia-2016/</link>
+					<comments>https://soluzioni.com.co/tendencia-2016/#respond</comments>
+		
+		<dc:creator><![CDATA[eme]]></dc:creator>
+		<pubDate>Thu, 01 Dec 2022 22:25:01 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://soluzioni.com.co/?p=1220</guid>
+
+					<description><![CDATA[
+Resulta evidente, incluso para el observador menos experto en patrones de trabajo, que la tecnologia ha revolucionado nuestra capacidad para realizar diferentes tipos de tareas. A día de hoy existen nuevos patrones de trabajo que podrían servirte para adaptarte a esta nueva era laboral.]]></description>
+										<content:encoded><![CDATA[
+Resulta evidente, incluso para el observador menos experto en patrones de trabajo, que la tecnologia ha revolucionado nuestra capacidad para realizar diferentes tipos de tareas. A día de hoy existen nuevos patrones de trabajo que podrían servirte para adaptarte a esta nueva era laboral.]]></content:encoded>
+					
+					<wfw:commentRss>https://soluzioni.com.co/tendencia-2016/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sillas de oficina y productividad laboral</title>
+		<link>https://soluzioni.com.co/mobiliario-para-restaurante/</link>
+					<comments>https://soluzioni.com.co/mobiliario-para-restaurante/#respond</comments>
+		
+		<dc:creator><![CDATA[eme]]></dc:creator>
+		<pubDate>Thu, 01 Dec 2022 22:24:18 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://soluzioni.com.co/?p=1218</guid>
+
+					<description><![CDATA[Una buena silla nos permite estar más cómodos pero también invertir menos energía en sujetar nuestra musculatura por lo que podemos invertir más energía en concentrarnos en nuestro trabajo.]]></description>
+										<content:encoded><![CDATA[Una buena silla nos permite estar más cómodos pero también invertir menos energía en sujetar nuestra musculatura por lo que podemos invertir más energía en concentrarnos en nuestro trabajo.]]></content:encoded>
+					
+					<wfw:commentRss>https://soluzioni.com.co/mobiliario-para-restaurante/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
