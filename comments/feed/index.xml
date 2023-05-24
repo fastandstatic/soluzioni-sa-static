@@ -11,11 +11,11 @@
 	<atom:link href="https://soluzioni.com.co/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://soluzioni.com.co/</link>
 	<description></description>
-	<lastBuildDate>Mon, 27 Feb 2023 19:55:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 24 May 2023 22:16:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 </channel>
 </rss>
