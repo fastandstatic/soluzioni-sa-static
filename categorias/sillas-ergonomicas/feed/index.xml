@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://soluzioni.com.co/wp-content/uploads/2022/11/Grupo-78-1-150x45.png</url>
@@ -40,7 +40,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">778</post-id>	</item>
 		<item>
 		<title>Zuhe</title>
 		<link>https://soluzioni.com.co/catalogo/zuhe-2/</link>
@@ -54,7 +54,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">776</post-id>	</item>
 		<item>
 		<title>Think</title>
 		<link>https://soluzioni.com.co/catalogo/think-2/</link>
@@ -68,7 +68,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">774</post-id>	</item>
 		<item>
 		<title>Shangai</title>
 		<link>https://soluzioni.com.co/catalogo/shangai-2/</link>
@@ -82,7 +82,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">772</post-id>	</item>
 		<item>
 		<title>Onix</title>
 		<link>https://soluzioni.com.co/catalogo/onix/</link>
@@ -96,7 +96,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">770</post-id>	</item>
 		<item>
 		<title>Kyoto</title>
 		<link>https://soluzioni.com.co/catalogo/kyoto/</link>
@@ -110,7 +110,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">768</post-id>	</item>
 		<item>
 		<title>Boss</title>
 		<link>https://soluzioni.com.co/catalogo/boss-2/</link>
@@ -124,7 +124,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">766</post-id>	</item>
 		<item>
 		<title>Delphi</title>
 		<link>https://soluzioni.com.co/catalogo/delphi-2/</link>
@@ -138,7 +138,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">764</post-id>	</item>
 		<item>
 		<title>Amsterdam</title>
 		<link>https://soluzioni.com.co/catalogo/amsterdam/</link>
@@ -152,7 +152,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">762</post-id>	</item>
 		<item>
 		<title>Monk</title>
 		<link>https://soluzioni.com.co/catalogo/monk-2/</link>
@@ -166,6 +166,6 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">760</post-id>	</item>
 	</channel>
 </rss>

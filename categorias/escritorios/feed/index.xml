@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://soluzioni.com.co/wp-content/uploads/2022/11/Grupo-78-1-150x45.png</url>
@@ -40,7 +40,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">304</post-id>	</item>
 		<item>
 		<title>Pietra</title>
 		<link>https://soluzioni.com.co/catalogo/pietra/</link>
@@ -54,7 +54,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">302</post-id>	</item>
 		<item>
 		<title>forte</title>
 		<link>https://soluzioni.com.co/catalogo/forte/</link>
@@ -68,7 +68,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">300</post-id>	</item>
 		<item>
 		<title>Vulcano</title>
 		<link>https://soluzioni.com.co/catalogo/vulcano/</link>
@@ -82,7 +82,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">298</post-id>	</item>
 		<item>
 		<title>Ulivo</title>
 		<link>https://soluzioni.com.co/catalogo/ulivo/</link>
@@ -96,7 +96,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">297</post-id>	</item>
 		<item>
 		<title>Olmo</title>
 		<link>https://soluzioni.com.co/catalogo/olmo/</link>
@@ -110,7 +110,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">295</post-id>	</item>
 		<item>
 		<title>Peccia</title>
 		<link>https://soluzioni.com.co/catalogo/peccia/</link>
@@ -124,7 +124,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">293</post-id>	</item>
 		<item>
 		<title>Abete</title>
 		<link>https://soluzioni.com.co/catalogo/abete/</link>
@@ -138,7 +138,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">291</post-id>	</item>
 		<item>
 		<title>Nocciolo</title>
 		<link>https://soluzioni.com.co/catalogo/nocciolo/</link>
@@ -152,7 +152,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">290</post-id>	</item>
 		<item>
 		<title>Leccio</title>
 		<link>https://soluzioni.com.co/catalogo/leccio/</link>
@@ -166,6 +166,6 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">288</post-id>	</item>
 	</channel>
 </rss>

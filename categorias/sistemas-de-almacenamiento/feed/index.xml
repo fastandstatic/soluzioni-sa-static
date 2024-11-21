@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://soluzioni.com.co/wp-content/uploads/2022/11/Grupo-78-1-150x45.png</url>
@@ -40,7 +40,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">318</post-id>	</item>
 		<item>
 		<title>Pulizia</title>
 		<link>https://soluzioni.com.co/catalogo/pulizia/</link>
@@ -54,7 +54,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">316</post-id>	</item>
 		<item>
 		<title>Spazio</title>
 		<link>https://soluzioni.com.co/catalogo/spazio/</link>
@@ -68,7 +68,7 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">314</post-id>	</item>
 		<item>
 		<title>Ordine</title>
 		<link>https://soluzioni.com.co/catalogo/ordine/</link>
@@ -82,6 +82,6 @@
 					
 		
 		
-			</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">313</post-id>	</item>
 	</channel>
 </rss>
