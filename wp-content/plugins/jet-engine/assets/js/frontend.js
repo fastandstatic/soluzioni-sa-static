@@ -51,6 +51,7 @@
 
 			$scope
 				.on( 'jet-filter-content-rendered', JetEngine.calendarCache.clear )
+				.on( 'change.JetEngine', '.jet-calendar-caption__date-select', JetEngine.selectCalendarMonth )
 				.on( 'click.JetEngine', '.jet-calendar-nav__link', JetEngine.switchCalendarMonth )
 				.on( 'click.JetEngine', '.jet-calendar-week__day-mobile-overlay', JetEngine.showCalendarEvent )
 				.on( 'click.JetEngine', '.jet-listing-dynamic-link__link[data-delete-link="1"]', JetEngine.showConfirmDeleteDialog )
@@ -2122,6 +2123,38 @@
 			},
 		},
 
+		selectCalendarMonth: function ( $event ) {
+			let wrapper = this.closest( '.jet-calendar-caption__dates' );
+
+			if ( ! JetEngine.updateDateSelectLabels( wrapper ) ) {
+				return;
+			}
+
+			JetEngine.switchCalendarMonth.bind( wrapper )()
+		},
+
+		updateDateSelectLabels: function( wrapper ) {
+			let month = wrapper.querySelector( '.jet-calendar-caption__date-select.select-month' ),
+			    year = wrapper.querySelector( '.jet-calendar-caption__date-select.select-year' );
+
+			if ( ! month || ! year ) {
+				return false;
+			}
+
+			let monthLabel = wrapper.querySelector( '.jet-calendar-caption__date-select-label.select-month' ),
+				yearLabel = wrapper.querySelector( '.jet-calendar-caption__date-select-label.select-year' );
+
+			wrapper.setAttribute( 'data-month', month.value + ' ' + year.value );
+
+			const monthOption = month.querySelector( `option[value="${month.value}"]` ),
+			      yearOption = year.querySelector( `option[value="${year.value}"]` );
+
+			monthLabel.innerHTML = monthOption.innerHTML;
+			yearLabel.innerHTML = yearOption.innerHTML;
+
+			return true;
+		},
+
 		switchCalendarMonth: function( $event ) {
 
 			var $this     = $( this ),
@@ -2180,9 +2213,11 @@
 					replacement.removeClass( 'jet-calendar-loading' );
 					$calendar.replaceWith( replacement[0] );
 					JetEngine.initElementsHandlers( $widget );
-
+					JetEngine.updateDateSelectLabels( $widget[0] );
 					// Re-init Bricks scripts
 					JetEngine.reinitBricksScripts();
+
+					$( document ).trigger( 'jet-engine-request-calendar-cached', [ $widget ] );
 
 					return;
 				}
@@ -2213,9 +2248,10 @@
 					}
 
 					JetEngine.initElementsHandlers( $widget );
-
 					// Re-init Bricks scripts
 					JetEngine.reinitBricksScripts();
+
+					$( document ).trigger( 'jet-engine-request-calendar-done', [ $widget ] );
 				}
 				$calendar.removeClass( 'jet-calendar-loading' );
 			} );
