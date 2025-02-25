@@ -1347,7 +1347,7 @@
 						return;
 					}
 
-					if ( this.page === this.pages && ! window.elementor ) {
+					if ( ! this.pages || this.page === this.pages && ! window.elementor ) {
 						$button.css( 'display', 'none' );
 					} else {
 						$button.removeAttr( 'style' );
@@ -1357,6 +1357,11 @@
 						.off( 'click', this.settings.more_el )
 						.on( 'click', this.settings.more_el, function( event ) {
 							event.preventDefault();
+
+							if ( ! self.pages || self.page >= self.pages) {
+								$button.css( 'display', 'none' );
+								return;
+							}
 
 							$button.css( {
 								pointerEvents: 'none',
@@ -1383,7 +1388,7 @@
 						return;
 					}
 
-					if ( this.page === this.pages ) {
+					if ( ! this.pages || this.page === this.pages ) {
 						return;
 					}
 
@@ -2069,6 +2074,10 @@
 					return;
 				}
 
+				if ( ! window.JetSmartFilterSettings.settings['jet-engine-calendar'] ) {
+					return;
+				}
+
 				monthData = monthData.split( ' ' );
 
 				const month = monthData[0],
@@ -2098,7 +2107,7 @@
 						}
 
 						for ( const id in window.JetSmartFilterSettings.settings['jet-engine-calendar'] ) {
-							if ( window.JetSmartFilterSettings.settings['jet-engine-calendar'][ id ]._id === widgetId ) {
+							if ( window.JetSmartFilterSettings.settings['jet-engine-calendar'][ id ]?._id === widgetId ) {
 								window.JetSmartFilterSettings.settings['jet-engine-calendar'][ id ]['start_from_month'] = month;
 								window.JetSmartFilterSettings.settings['jet-engine-calendar'][ id ]['start_from_year'] = year;
 								break;
@@ -2113,7 +2122,7 @@
 							widgetId = 'default';
 						}
 
-						if ( window.JetSmartFilterSettings.settings['jet-engine-calendar'][ widgetId ] ) {
+						if ( window.JetSmartFilterSettings.settings['jet-engine-calendar']?.[ widgetId ] ) {
 							window.JetSmartFilterSettings.settings['jet-engine-calendar'][ widgetId ]['start_from_month'] = month;
 							window.JetSmartFilterSettings.settings['jet-engine-calendar'][ widgetId ]['start_from_year'] = year;
 						}
@@ -2543,6 +2552,12 @@
 	$( window ).on( 'elementor/frontend/init', JetEngine.init );
 
 	window.JetEngine = JetEngine;
+
+	document.addEventListener( 'jet-smart-filters/inited', function() {
+		window.JetSmartFilters.events.subscribe( 'ajaxFilters/updated', function( provider, queryId ) {
+			window.JetEngine.initFrontStores( window.JetSmartFilters?.filterGroups?.[ provider + '/' + queryId ]?.$provider);
+		} );
+	} );
 
 	JetEngine.commonInit();
 
