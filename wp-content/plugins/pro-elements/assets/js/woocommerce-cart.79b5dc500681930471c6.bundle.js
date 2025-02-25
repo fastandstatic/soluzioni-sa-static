@@ -1,4 +1,4 @@
-/*! pro-elements - v3.25.0 - 20-11-2024 */
+/*! pro-elements - v3.27.0 - 16-02-2025 */
 "use strict";
 (self["webpackChunkelementor_pro"] = self["webpackChunkelementor_pro"] || []).push([["woocommerce-cart"],{
 
